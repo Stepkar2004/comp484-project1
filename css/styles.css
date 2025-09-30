@@ -1,0 +1,136 @@
+/*
+  Quantum Mini-Guide
+  COMP 484, Fall 2025
+*/
+
+/* --- Base --- */
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fefefe;
+  max-width: 1000px;
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #005a9c;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+code {
+  font-family: monospace;
+  background-color: #e6f0ff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* --- Layout & Containers --- */
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #777;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* --- Navigation --- */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  text-align: center;
+}
+
+nav li {
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #005a9c;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #e6f0ff;
+  outline: none;
+}
+
+/* --- Links --- */
+a {
+  color: #005a9c;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* --- Images & Figures --- */
+figure {
+  margin: 1rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* --- Lists --- */
+dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* --- Tables --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+thead {
+  background-color: #e6f0ff;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}

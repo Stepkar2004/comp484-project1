@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tech Today — Quantum Mini-Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <!-- Attribute: 'translate="no"' is used on the H1 to prevent auto-translation of the site's proper name. -->
+      <h1 translate="no">Quantum Mechanics Mini-Guide</h1>
+      <h2>Tech Today</h2>
+      <nav role="navigation" aria-label="Primary">
+        <ul>
+          <!-- Attribute: 'tabindex' is used here to define a logical navigation order for keyboard users. -->
+          <li><a href="index.html" title="Home" tabindex="1">Home</a></li>
+          <li><a href="history.html" title="Brief history of quantum mechanics" tabindex="2">History</a></li>
+          <li><a href="concepts.html" title="Core quantum concepts" tabindex="3">Concepts</a></li>
+          <li><a href="experiments.html" title="Famous thought experiments" tabindex="4">Thought Experiments</a></li>
+          <li><a href="technology.html" title="Quantum in today's technology" tabindex="5">Tech Today</a></li>
+          <li><a href="glossary.html" title="Glossary of terms" tabindex="6">Glossary</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main" id="main" tabindex="0">
+      <article>
+        <section>
+          <h3>Quantum in today’s technology</h3>
+          <p>Quantum effects drive a surprising amount of modern tech. Here are a few examples:</p>
+          <table aria-label="Quantum effects and technologies">
+            <thead>
+              <tr><th>Quantum effect</th><th>Where it appears</th><th>What it enables</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Quantized energy levels</td><td>LEDs & lasers</td><td>Precise colors and coherent light</td></tr>
+              <tr><td>Tunneling</td><td>Flash memory (Fowler–Nordheim)</td><td>Storing and moving charge</td></tr>
+              <tr><td>Spin states</td><td>MRI</td><td>Non‑invasive imaging</td></tr>
+              <tr><td>Superposition & entanglement</td><td>Quantum computing & communication</td><td>New algorithms and secure key distribution</td></tr>
+            </tbody>
+          </table>
+          <!-- Attribute: 'longdesc' provides a link to a detailed description for this image, improving accessibility. -->
+          <img src="images/chip.jpg" alt="Close-up of a silicon chip representing quantum-enabled electronics" longdesc="#chip-desc">
+          <section id="chip-desc">
+            <p><small>Macro photo of an integrated circuit die with metallic interconnects.</small></p>
+          </section>
+        </section>
+      </article>
+    </main>
+    <footer role="contentinfo">
+      <p><small>&copy; 2025 Quantum Mechanics Mini-Guide. Built for CSUN COMP 484.</small></p>
+      <!-- Element: The <ins> tag is used to highlight text that is considered an important insertion. -->
+      <p><small>This is a student project. <ins>Educational use only</ins>.</small></p>
+    </footer>
+  </body>
+</html>

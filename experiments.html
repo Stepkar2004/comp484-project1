@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thought Experiments — Quantum Mini-Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <!-- Attribute: 'translate="no"' is used on the H1 to prevent auto-translation of the site's proper name. -->
+      <h1 translate="no">Quantum Mechanics Mini-Guide</h1>
+      <h2>Thought Experiments</h2>
+      <nav role="navigation" aria-label="Primary">
+        <ul>
+          <!-- Attribute: 'tabindex' is used here to define a logical navigation order for keyboard users. -->
+          <li><a href="index.html" title="Home" tabindex="1">Home</a></li>
+          <li><a href="history.html" title="Brief history of quantum mechanics" tabindex="2">History</a></li>
+          <li><a href="concepts.html" title="Core quantum concepts" tabindex="3">Concepts</a></li>
+          <li><a href="experiments.html" title="Famous thought experiments" tabindex="4">Thought Experiments</a></li>
+          <li><a href="technology.html" title="Quantum in today's technology" tabindex="5">Tech Today</a></li>
+          <li><a href="glossary.html" title="Glossary of terms" tabindex="6">Glossary</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main" id="main" tabindex="0">
+      <article>
+        <section>
+          <h3>Thought experiments & key setups</h3>
+          <article>
+            <h4>Double-slit experiment</h4>
+            <p>When particles like electrons pass through two narrow slits, they create an interference pattern typical of waves. But if you measure which slit they go through, the pattern vanishes.</p>
+            <!-- Attribute: 'longdesc' provides a link to a detailed description for this image, improving accessibility. -->
+            <img src="images/Doubleslit.svg" alt="Diagram of a particle source, two slits, and a detection screen with an interference pattern" longdesc="#slits-desc">
+            <section id="slits-desc">
+              <p><small>Particle gun aimed at a plate with two slits; behind it a screen shows bright and dark fringes.</small></p>
+            </section>
+          </article>
+          <article>
+            <h4>Schrödinger’s cat</h4>
+            <p>A sealed box links a quantum event to a macroscopic outcome. Before opening the box, the cat is often said to be in a superposition of alive and not alive—illustrating measurement puzzles.</p>
+          </article>
+        </section>
+        <section aria-labelledby="video-title">
+          <h3 id="video-title">Short explainer video</h3>
+          <!-- Element: The <small> tag is used for the disclaimer text below, as it represents side-text. -->
+          <p><small>The embedded video is external content. If it fails to load, visit the linked resource in a new tab.</small></p>
+          <!-- Element: The <iframe> tag is used here to embed external content (a YouTube video) directly into the page. -->
+          <iframe 
+            src="https://www.youtube.com/embed/uva6gBEpfDY" 
+            title="Double-slit experiment video" 
+            width="560" height="315" 
+            loading="lazy" 
+            referrerpolicy="no-referrer"
+            allowfullscreen>
+          </iframe>
+        </section>
+      </article>
+    </main>
+    <footer role="contentinfo">
+      <p><small>&copy; 2025 Quantum Mechanics Mini-Guide. Built for CSUN COMP 484.</small></p>
+      <p><small>This is a student project. <ins>Educational use only</ins>.</small></p>
+    </footer>
+  </body>
+</html>

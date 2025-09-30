@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home — Quantum Mini-Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <!-- Attribute: 'translate="no"' is used on the H1 to prevent auto-translation of the site's proper name. -->
+      <h1 translate="no">Quantum Mechanics Mini-Guide</h1>
+      <h2>Home</h2>
+      <nav role="navigation" aria-label="Primary">
+        <ul>
+          <!-- Attribute: 'tabindex' is used here to define a logical navigation order for keyboard users. -->
+          <li><a href="index.html" title="Home" tabindex="1">Home</a></li>
+          <li><a href="history.html" title="Brief history of quantum mechanics" tabindex="2">History</a></li>
+          <li><a href="concepts.html" title="Core quantum concepts" tabindex="3">Concepts</a></li>
+          <li><a href="experiments.html" title="Famous thought experiments" tabindex="4">Thought Experiments</a></li>
+          <li><a href="technology.html" title="Quantum in today's technology" tabindex="5">Tech Today</a></li>
+          <li><a href="glossary.html" title="Glossary of terms" tabindex="6">Glossary</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main" id="main" tabindex="0">
+      <article>
+        <section>
+          <h3>What is quantum mechanics?</h3>
+          <p>Quantum mechanics is the branch of physics that describes nature at the smallest scales—atoms, electrons, and light. It replaces everyday certainty with probabilities and waves.</p>
+          <!-- Element: The <ins> tag is used to highlight a key idea, marking it as an important insertion to the text. -->
+          <p><ins>Key idea:</ins> particles can behave like waves and occupy multiple possible states until measured.</p>
+          <!-- Attribute: 'longdesc' provides a link to a detailed description for this image, improving accessibility. -->
+          <img src="images/atom.jpg" alt="Stylized Bohr-like atom illustration with electrons orbiting a nucleus" longdesc="#atom-desc">
+          <section id="atom-desc">
+            <p><small>This image would show a nucleus with electrons in circular orbits.</small></p>
+          </section>
+        </section>
+        <section>
+          <h3>Fast facts</h3>
+          <ul>
+            <li>Origins: early 1900s (Planck, Einstein, Bohr, Schrödinger, Heisenberg).</li>
+            <li>Math tools: complex waves, operators, and probabilities.</li>
+            <li>Everyday tech: LEDs, lasers, MRI, transistors.</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <footer role="contentinfo">
+      <p><small>&copy; 2025 Quantum Mechanics Mini-Guide. Built for CSUN COMP 484.</small></p>
+      <p><small>This is a student project. <ins>Educational use only</ins>.</small></p>
+    </footer>
+  </body>
+</html>
