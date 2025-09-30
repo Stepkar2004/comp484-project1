@@ -1,4 +1,4 @@
-Link to website: [link]
+Link to website: https://stepkar2004.github.io/comp484-project1/index.html
 
 # Project 1: HTML & CSS
 
