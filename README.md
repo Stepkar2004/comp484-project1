@@ -11,7 +11,7 @@ As per the project requirements, the following unique elements and attributes ha
 ### Elements
 
 1.  **`<small>`**
-    *   **Where:** Used in the footer of every page and for notes (e.g., in `glossary.html`).
+    *   **Where:** Used in the footer of every page and for notes.
     *   **Why:** To represent side-comments, fine print, and copyright information, which is the semantic purpose of the tag.
 
 2.  **`<iframe>`**
@@ -19,7 +19,7 @@ As per the project requirements, the following unique elements and attributes ha
     *   **Why:** To embed an external YouTube video directly into the page, providing a visual explanation of the double-slit experiment.
 
 3.  **`<ins>`**
-    *   **Where:** Used in the footer of every page and within the text on some pages (e.g., `index.html`).
+    *   **Where:** Used in the footer of every page and within the text on some pages.
     *   **Why:** To highlight text that is considered an "insertion" or a key idea, making it stand out semantically.
 
 ### Attributes
