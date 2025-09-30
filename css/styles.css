@@ -94,22 +94,11 @@ a:hover {
   text-decoration: none;
 }
 
-/* --- Images & Figures --- */
-figure {
-  margin: 1rem 0;
-}
-
+/* --- Images --- */
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-}
-
-figcaption {
-  font-size: 0.9em;
-  font-style: italic;
-  color: #555;
-  margin-top: 0.5rem;
 }
 
 /* --- Lists --- */
